@@ -1,0 +1,56 @@
+@import './partials/utilities';
+
+body {
+    background-color: $lightGray;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    min-height: 100vh;
+
+    padding: 0 1.1rem;
+}
+.card {
+
+    padding: 1rem;
+    border: 1px solid $lightGray;
+    border-radius: 1.5rem;
+    box-shadow: 0px 5px 15px $lightGray;
+    max-width: 320px;
+    background-color: $white;
+
+    #img-qr-code {
+        display: block;
+        width: 100%;
+        border-radius: .8rem;
+    }
+
+    .content {
+
+        padding: 0 .7rem;
+
+        #card-title {
+            text-align: center;
+            font-size: 1.5rem;
+            color: $darkBlue;
+            padding-top: .8rem;
+            letter-spacing: .04rem;
+        }
+    
+        #card-text {
+            text-align: center;
+            font-size: 1.01rem;
+            padding: 0 .4rem;
+            color: $grayishBlue;
+            padding-bottom: .6rem;
+        }
+    }
+}
+
+.attribution {
+
+    font-size: .8rem;
+}
